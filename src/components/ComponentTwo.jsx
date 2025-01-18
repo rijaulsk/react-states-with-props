@@ -6,7 +6,7 @@ const ComponentTwo = ({count, onClickandler}) => {
   return (
     <div>
     <p>{count}</p>
-    <button onClick={handleClick}>Increment</button>
+    <button onClick={handleClick}>Decrement</button>
 </div>
   )
 }
